@@ -4,7 +4,6 @@ export function useNearScreen<T extends HTMLElement>(
     options?: IntersectionObserverInit
 ) {
     const unobserveRef = useRef<(() => void) | null>(null);
-    const x = unobserveRef.current;
     const thresholdRef = useCallback((node: T) => {
         if (!node) return;
 
