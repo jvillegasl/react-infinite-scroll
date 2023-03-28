@@ -1,0 +1,14 @@
+.c-infinite-scroll {
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+
+    &__items {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        max-height: 500px;
+        padding: 16px;
+    }
+}
