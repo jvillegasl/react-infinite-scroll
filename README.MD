@@ -13,7 +13,7 @@
 
 ## Overview
 
-Implementation of infinicte scroll.
+Implementation of infinite scroll.
 
 Live demo: https://jvillegasl.github.io/react-infinite-scroll/
 
