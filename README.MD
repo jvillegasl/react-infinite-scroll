@@ -1,84 +1,40 @@
-# React: Infinite Scroll
+# React: Tic-Tac-Toe
 
-## Infinite Scroll Component:
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jvillegasl.github.io/react-infinite-scroll/)
 
--   Dynamically loads data when the last of the currents items is visible.
--   Renders a list of elements and populates them with fetched data.
--   Implements the custom hook useNearScreen using Intersection Observer.
--   Renders a loading indicator while new data is being fetched
--   Props format:
+![Preview](https://jvillegasl.github.io/react-infinite-scroll/preview.gif)
 
-```
-{
-    children: (props?: T) => ReactElement,
-    batchSize: number,
-    fetchBatch: (batchSize: number) => Promise<T[]>
-}
-```
+## Table of Contents
 
-## APIs
+-   [Overview](#overview)
+-   [Built With](#built-with)
+-   [Setup](#setup)
+-   [Contact](#contact)
 
-### Random Cats Fact
+## Overview
 
--   API URL: [https://catfact.ninja/](https://catfact.ninja/)
+Implementation of infinicte scroll.
 
--   Endpoint: `GET https://catfact.ninja/fact`
+Live demo: https://jvillegasl.github.io/react-infinite-scroll/
 
--   Query Params:
+### Built With
 
-    -   No query param.
+-   React 18
+-   Typescript
+-   SCSS
 
--   Features:
-    -   Response format: JSON.
-    -   No API key required.
-    -   Response body format:
-    ```
-    {
-        "fact": string,
-        "length": number
-    }
-    ```
+## Setup
 
-### Random Cat Image
-
--   API URL: [https://cataas.com/](https://cataas.com/)
-
--   Endpoint: `https://cataas.com/cat/says/:text?size=50&json=true`
-
--   Query Params:
-
-    -   text (required): the customized message that will be displayed on the cat image.
-
--   Features:
-    -   Response format: JSON.
-    -   No API key required.
-    -   Response body format:
-    ```
-    {
-        "tags": string[];
-        "createdAt": string;
-        "updatedAt": string;
-        "validated": boolean;
-        "file": string;
-        "mimetype": string;
-        "size": number;
-        "_id": string;
-        "url": string;
-    }
-    ```
-
-## Installing
-
-Clone this repository and run the next command:
+To run this project locally run the following commands:
 
 ```
+git clone https://jvillegasl.github.io/react-infinite-scroll/
+cd react-infinite-scroll
 npm install
+npm start
 ```
 
-## Locally run
+## Contact
 
-After installing run the next command:
-
-```
-npm run dev
-```
+-   Email: jvillegasl@uni.pe
+-   LinkedIn: https://www.linkedin.com/in/vlja/
