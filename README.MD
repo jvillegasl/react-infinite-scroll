@@ -1,4 +1,4 @@
-# React: Tic-Tac-Toe
+# React: Infinite Scroll
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://jvillegasl.github.io/react-infinite-scroll/)
 
